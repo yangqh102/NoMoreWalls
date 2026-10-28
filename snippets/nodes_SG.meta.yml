@@ -1,9 +1,23 @@
 proxies:
 - client-fingerprint: chrome
-  name: '🏳[www.v2nodes.com] vless- #16'
+  name: 🇸🇬[www.v2nodes.com] vless-SG
   network: ws
   port: 443
-  server: cf.090227.xyz
+  server: 104.18.33.141
+  servername: kclx.eu.org
+  tls: true
+  type: vless
+  uuid: 0575005f-0ba9-4d6d-85e0-4a6a8cbafc1b
+  ws-opts:
+    headers:
+      Host: kclx.eu.org
+    path: /154.16.10.34-8080
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇸🇬[www.v2nodes.com] vless-SG #1'
+  network: ws
+  port: 443
+  server: 172.66.0.162
   servername: ccc.010304.xyz
   tls: true
   type: vless
@@ -11,76 +25,20 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-    path: /fp=chrome
-- alpn:
-  - http/1.1
-  client-fingerprint: randomized
-  encryption: none
-  name: '🇸🇬[www.v2nodes.com] vless-SG #1'
-  network: ws
-  port: 8443
-  server: 172.66.44.124
-  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-  tls: true
-  type: vless
-  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
-  ws-opts:
-    headers:
-      Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-    path: /9BozNyvQ8VdRvsYX?ed=2560
-- client-fingerprint: unsafe
-  encryption: none
+    path: /
+- client-fingerprint: chrome
   name: '🇸🇬[www.v2nodes.com] vless-SG #2'
   network: ws
-  port: 443
-  server: 104.21.70.21
-  servername: nautica-cff.kloningstrife002.workers.dev
+  port: 8443
+  server: 188.164.248.123
+  servername: vp21.cc.cd
   tls: true
   type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   ws-opts:
     headers:
-      Host: nautica-cff.kloningstrife002.workers.dev
-    path: /138.2.74.219-28616
-- client-fingerprint: unsafe
-  encryption: none
-  name: '🇸🇬[www.v2nodes.com] vless-SG #3'
-  network: ws
-  port: 443
-  server: 188.114.97.6
-  servername: xstack.mahanfixe.workers.dev
-  tls: true
-  type: vless
-  uuid: a8b1d666-d3ba-4b17-90c4-ba7514c74f78
-  ws-opts:
-    headers:
-      Host: xstack.mahanfixe.workers.dev
-    path: /xiron
-- encryption: none
-  name: '🇸🇬[www.v2nodes.com] vless-SG #4'
-  network: ws
-  port: 8080
-  server: 104.21.70.21
-  servername: nautica-cff.kloningstrife002.workers.dev
-  tls: false
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  ws-opts:
-    headers:
-      Host: nautica-cff.kloningstrife002.workers.dev
-    path: /138.2.74.219-28616
-- name: '🇸🇬[www.v2nodes.com] vless-SG #5'
-  network: ws
-  port: 2082
-  server: 104.18.0.181
-  servername: 'hhlfy.twiladaphne.ndjp.net '
-  tls: false
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /fp
+      Host: vp21.cc.cd
+    path: /
 - name: 🇸🇬[www.v2nodes.com] vless-SG-1...
   network: ws
   port: 443
@@ -89,62 +47,32 @@ proxies:
   type: vless
   uuid: 270c3fa5-0293-4d68-875c-6cdc3bdc5b84
 - client-fingerprint: chrome
-  encryption: none
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #5'
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #7'
   network: ws
-  port: 2096
-  server: 139.162.27.96
-  servername: free-server.techsonic.dev
+  port: 443
+  server: 104.18.40.100
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬[www.v2nodes.com] vless-SG-9...
+  network: ws
+  port: 443
+  server: 104.26.4.2
+  servername: ccc.010304.xyz
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
     headers:
-      Host: free-server.techsonic.dev
-    path: /free-server.techsonic.dev
-- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #9'
-  port: 12512
-  server: 46.137.202.178
-  tls: false
-  type: vless
-  uuid: 2a6c617d-98e4-49c3-95ab-76f02fcf0150
-- client-fingerprint: chrome
-  encryption: none
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #11'
-  network: ws
-  port: 443
-  server: 104.24.30.89
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  tls: true
-  type: vless
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
-  ws-opts:
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
-    path: /
-- name: 🇸🇬[www.v2nodes.com] vless-SG-9...
-  network: ws
-  port: 8880
-  server: 159.242.242.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime58.workers.dev
-    path: /
-- name: '🇸🇬[www.v2nodes.com] vless-SG-9... #1'
-  network: ws
-  port: 8080
-  server: 104.16.215.234
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: false
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: ccc.010304.xyz
     path: /fp=chrome
 - name: 🇸🇬[www.v2nodes.com] trojan-SG-...
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
