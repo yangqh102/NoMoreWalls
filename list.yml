@@ -8064,7 +8064,6 @@ rules:
 - DOMAIN-SUFFIX,api.fast.com,🚀 选择代理
 - DOMAIN-SUFFIX,primevideo.com,🚀 选择代理
 - DOMAIN-SUFFIX,api.bilibili.com,🌐 突破锁区
-- DOMAIN-SUFFIX,xiaohongshu.com,⛔ 广告拦截
 - DOMAIN-SUFFIX,xhscdn.com,⛔ 广告拦截
 - DOMAIN-SUFFIX,douban.com,⛔ 广告拦截
 - DOMAIN-SUFFIX,doubanio.com,⛔ 广告拦截

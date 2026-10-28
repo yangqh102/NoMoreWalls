@@ -147,8 +147,7 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NTk4Mlx1NjcwOVx1OTcwMFx1ODk4MVx1RkYw
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NUU4Nlx1Nzk1RFx1NEUyRFx1NTZGRFx1NTE3MVx1NEVBN1x1NTE1QVx1NjIxMFx1N0FDQjEwNVx1NTQ2OFx1NUU3NFx1RkYwMSIsDQogICJhZGQiOiAiMC4wLjAuMCIsDQogICJwb3J0IjogIjMiLA0KICAiaWQiOiAiODg4ODg4ODgtODg4OC04ODg4LTg4ODgtODg4ODg4ODg4ODg4IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIndlYi41MS5sYSIsDQogICJhbHBuIjogImh0dHAvMS4xIiwNCiAgImZwIjogImNocm9tZSINCn0=
 """
 
-d = datetime.datetime.now()
-if FETCH_CONFIG['stop'] or ((d.month, d.day) in ((6, 4), (7, 1)) and not (LOCAL or PROXY)):
+if FETCH_CONFIG['stop']:
     FETCH_CONFIG.update({
         'stop': True,
         'name_show_type': False,
