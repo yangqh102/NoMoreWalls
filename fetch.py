@@ -148,7 +148,7 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NUU4Nlx1Nzk1RFx1NEUyRFx1NTZGRFx1NTE3
 """
 
 d = datetime.datetime.now()
-if FETCH_CONFIG['stop'] or ((d.month, d.day) in ((6, 4), (7, 1)) and not (LOCAL or PROXY)):
+if FETCH_CONFIG['stop'] or (not (LOCAL or PROXY)):
     FETCH_CONFIG.update({
         'stop': True,
         'name_show_type': False,

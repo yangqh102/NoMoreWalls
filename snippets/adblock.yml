@@ -810,10 +810,10 @@ payload:
 - DOMAIN-SUFFIX,p4-lm.adukwai.com
 - DOMAIN-SUFFIX,b1.91jucai.com
 - DOMAIN-SUFFIX,judicial4.com
-- DOMAIN-SUFFIX,ads-video-qc.xhscdn.com
-- DOMAIN-SUFFIX,ads-video-al.xhscdn.com
-- DOMAIN-SUFFIX,ads-img-al.xhscdn.com
-- DOMAIN-SUFFIX,ads-img-qc.xhscdn.com
+# - DOMAIN-SUFFIX,ads-video-qc.xhscdn.com
+# - DOMAIN-SUFFIX,ads-video-al.xhscdn.com
+# - DOMAIN-SUFFIX,ads-img-al.xhscdn.com
+# - DOMAIN-SUFFIX,ads-img-qc.xhscdn.com
 - DOMAIN-SUFFIX,8proe3xx6.com
 - DOMAIN-SUFFIX,1iuh5l.com
 - DOMAIN-SUFFIX,nahg4lhbr.com
@@ -6800,8 +6800,8 @@ payload:
 - DOMAIN-SUFFIX,minecraft-zh.gamepedia.com
 - DOMAIN-SUFFIX,minecraft.fandom.com
 - DOMAIN-SUFFIX,googletagmanager.com
-- DOMAIN-SUFFIX,xiaohongshu.com
-- DOMAIN-SUFFIX,xhscdn.com
-- DOMAIN-SUFFIX,douban.com
-- DOMAIN-SUFFIX,doubanio.com
+# - DOMAIN-SUFFIX,xiaohongshu.com
+# - DOMAIN-SUFFIX,xhscdn.com
+# - DOMAIN-SUFFIX,douban.com
+# - DOMAIN-SUFFIX,doubanio.com
 - DOMAIN-SUFFIX,guancha.cn

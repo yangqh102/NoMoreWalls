@@ -224,10 +224,10 @@ rules:
   - DOMAIN-SUFFIX,api.bilibili.com,🌐 突破锁区
 
   # 主动审查
-  - DOMAIN-SUFFIX,xiaohongshu.com,⛔ 广告拦截
-  - DOMAIN-SUFFIX,xhscdn.com,⛔ 广告拦截
-  - DOMAIN-SUFFIX,douban.com,⛔ 广告拦截
-  - DOMAIN-SUFFIX,doubanio.com,⛔ 广告拦截
+  # - DOMAIN-SUFFIX,xiaohongshu.com,⛔ 广告拦截
+  # - DOMAIN-SUFFIX,xhscdn.com,⛔ 广告拦截
+  # - DOMAIN-SUFFIX,douban.com,⛔ 广告拦截
+  # - DOMAIN-SUFFIX,doubanio.com,⛔ 广告拦截
   - DOMAIN-SUFFIX,guancha.cn,⛔ 广告拦截
 
   - DOMAIN-SUFFIX,luogu.com,🚀 选择代理

@@ -872,10 +872,10 @@ rules:
 - DOMAIN-SUFFIX,p4-lm.adukwai.com,⛔ 广告拦截
 - DOMAIN-SUFFIX,b1.91jucai.com,⛔ 广告拦截
 - DOMAIN-SUFFIX,judicial4.com,⛔ 广告拦截
-- DOMAIN-SUFFIX,ads-video-qc.xhscdn.com,⛔ 广告拦截
-- DOMAIN-SUFFIX,ads-video-al.xhscdn.com,⛔ 广告拦截
-- DOMAIN-SUFFIX,ads-img-al.xhscdn.com,⛔ 广告拦截
-- DOMAIN-SUFFIX,ads-img-qc.xhscdn.com,⛔ 广告拦截
+# - DOMAIN-SUFFIX,ads-video-qc.xhscdn.com,⛔ 广告拦截
+# - DOMAIN-SUFFIX,ads-video-al.xhscdn.com,⛔ 广告拦截
+# - DOMAIN-SUFFIX,ads-img-al.xhscdn.com,⛔ 广告拦截
+# - DOMAIN-SUFFIX,ads-img-qc.xhscdn.com,⛔ 广告拦截
 - DOMAIN-SUFFIX,8proe3xx6.com,⛔ 广告拦截
 - DOMAIN-SUFFIX,1iuh5l.com,⛔ 广告拦截
 - DOMAIN-SUFFIX,nahg4lhbr.com,⛔ 广告拦截
@@ -6913,10 +6913,10 @@ rules:
 - DOMAIN-SUFFIX,api.fast.com,🚀 选择代理
 - DOMAIN-SUFFIX,primevideo.com,🚀 选择代理
 - DOMAIN-SUFFIX,api.bilibili.com,🌐 突破锁区
-- DOMAIN-SUFFIX,xiaohongshu.com,⛔ 广告拦截
-- DOMAIN-SUFFIX,xhscdn.com,⛔ 广告拦截
-- DOMAIN-SUFFIX,douban.com,⛔ 广告拦截
-- DOMAIN-SUFFIX,doubanio.com,⛔ 广告拦截
+# - DOMAIN-SUFFIX,xiaohongshu.com,⛔ 广告拦截
+# - DOMAIN-SUFFIX,xhscdn.com,⛔ 广告拦截
+# - DOMAIN-SUFFIX,douban.com,⛔ 广告拦截
+# - DOMAIN-SUFFIX,doubanio.com,⛔ 广告拦截
 - DOMAIN-SUFFIX,guancha.cn,⛔ 广告拦截
 - DOMAIN-SUFFIX,luogu.com,🚀 选择代理
 - DOMAIN-SUFFIX,gradle.org,🚀 选择代理
